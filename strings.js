@@ -16,28 +16,27 @@ function stry(params) {
 }
 stry()
 
-//Find the following words from the following strings 1.'are' const string1='The pupils are reading in the library';
-//'sitting' const='The child was sitting on the table before it fell'
+//"are"const string1 = "The pupils are reading in the library";2. "sitting"const string2 = "The child was sitting on the table before it fell"
+const string1 = 'The pupils are reading in the library';
+console.log(string1.matchAll(/are/g));
 
-
-
-
-
-
-
+const string2 = 'The child was sitting on the table before it fell';
+console.log(string2.match(/the/g))
 //Convert the following strings into the specified format
-const state = 'wonderful';
-console.log('state' {toUpperCase});
+let word = 'wonderful';
+let state = word.toUpperCase();
+console.log(state);
 
-const statement = 'amazing';
-console.log(statement.toLowerCase);
+let statement = 'amazing';
+let c = statement.toLowerCase();
+console.log(c);
 
-const sententence = 'UndERneath';
-console.log(sentence.toLowerCase);
+let sentence = 'UndERneath';
+let d = sentence.toLowerCase();
+console.log(d);
 
- //statement = 'A wonderful world';
- //let titleCase = '';
- //statement.split(' ').forEach(word =>{const capitalisedWord = word.charAt(0).toUpperCase() + word.titleCase += capitalisedWord + ' '});
- //console.log(titleCase);
+let x = 'A wonderful world';
+let y = x.titleCase();
+console.log(y);
 
 
